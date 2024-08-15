@@ -3,25 +3,50 @@
     box-sizing: border-box;
     padding: 0;
     border: 0;
+    font-family: Roboto;
+}
+
+.grid {
+    display:grid;
 }
 
 .dashboard {
-    display:grid;
     grid-template: 1fr 4fr / 1fr 4fr;
     height: 100vh;
 }
 
 .header {
     grid-area: 1 / 2 / 2 / 3;
-    background-color: red;
+    background-color: white;
 }
 
 .sidebar {
     grid-area: 1 / 1 / 3 / 2;
-    background-color: aqua;
+    background-color: #0ea5e9;
+    color: white;
+    grid-template-rows: 3fr 2fr;
 }
 
-.projectGrid {
+.sidebarTop > ul {
+    font-weight: 600;
+    list-style: none;
+}
+
+li {
+    margin-bottom: .5rem;
+}
+
+.sidebarTop {
+    justify-content: center;
+}
+
+.body {
     grid-area: 2 / 2 / 3 / 3;
-    background-color: green;
+    background-color: lightgray;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
 }
