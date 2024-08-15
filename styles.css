@@ -158,6 +158,14 @@ h3 {
     background-color: white;
     border-radius: .5rem;
     padding: 1.5rem;
-    gap: .4rem;
+    gap: 1.4rem;
     box-shadow: 2px 2px 2px gray;
+}
+
+.person {
+    justify-content: flex-start;
+}
+
+.handle {
+    font-weight: 500;
 }
