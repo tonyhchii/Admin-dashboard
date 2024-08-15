@@ -128,7 +128,7 @@ p {
 }
 
 .light {
-    font-weight: lighter;
+    font-weight: 300;
     font-size: .9rem;
 }
 
