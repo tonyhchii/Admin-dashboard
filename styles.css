@@ -18,6 +18,7 @@
 .header {
     grid-area: 1 / 2 / 2 / 3;
     background-color: white;
+    box-shadow: 2px 2px 2px gray;
 }
 
 .sidebar {
@@ -46,6 +47,7 @@ li {
 .body {
     grid-area: 2 / 2 / 3 / 3;
     background-color: lightgray;
+    grid-template-columns: 2.5fr 2fr;
 }
 
 .logo {
@@ -110,4 +112,52 @@ img {
 
 p {
     font-size: .8rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: .8rem;
+    padding: 1.5rem;
+    justify-content: flex-start;
+    width: 25vw;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.cardIcon {
+    justify-content: flex-end;
+}
+
+.light {
+    font-weight: lighter;
+    font-size: .9rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.project {
+    grid-template-columns: 7fr 3fr;
+}
+
+.projects {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.container {
+    margin: 1.2rem;
+}
+
+h3 {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.announcements, .trending {
+    background-color: white;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    gap: .4rem;
+    box-shadow: 2px 2px 2px gray;
 }
