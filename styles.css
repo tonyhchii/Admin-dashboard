@@ -34,6 +34,9 @@
 
 li {
     margin-bottom: .5rem;
+    align-items: center;
+    display:flex;
+    gap: 1rem;
 }
 
 .sidebarTop {
@@ -46,7 +49,40 @@ li {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 700;
     margin-top: 1rem;
+    align-items: center;
+    display: flex;
+    gap: .2rem;
 }
+
+.flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border-radius: 1rem;
+    padding: .5rem 1.4rem;
+    background-color: #0ea5e9;
+    color: white;
+}
+
+.bar {
+    background-color: lightgray;
+    border-radius: 1rem;
+    width: 40vw;
+    height: 1.8rem;
+}
+
+img {
+    width: 3rem;
+    
+}
+
+li>img {
+    width: 1.3rem;
+}
+
